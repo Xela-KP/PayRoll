@@ -52,4 +52,12 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Employees\" />
+	  <None Remove="PayType\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Employees\" />
+	  <Folder Include="PayType\" />
+	</ItemGroup>
 </Project>
